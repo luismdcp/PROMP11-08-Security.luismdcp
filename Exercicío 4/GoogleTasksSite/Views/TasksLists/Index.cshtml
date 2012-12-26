@@ -1,0 +1,30 @@
+﻿@model IEnumerable<TaskList>
+
+@{
+    ViewBag.Title = "TaskLists";
+}
+
+<h2>TaskLists</h2>
+
+<table>
+    <tr>
+        <th>Kind</th>
+        <th>Etag</th>
+        <th>Title</th>
+        <th>Updated</th>
+        <th>SelfLink</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>@Html.DisplayFor(modelItem => item.Kind)</td>
+        <td>@Html.DisplayFor(modelItem => item.Etag)</td>
+        <td>@Html.DisplayFor(modelItem => item.Title)</td>
+        <td>@Html.DisplayFor(modelItem => item.Updated)</td>
+        <td>@Html.DisplayFor(modelItem => item.SelfLink)</td>
+        <td>@Html.RouteLink("Tasks", "Tasks", new { id = item.Id })</td>
+    </tr>
+}
+
+</table>
