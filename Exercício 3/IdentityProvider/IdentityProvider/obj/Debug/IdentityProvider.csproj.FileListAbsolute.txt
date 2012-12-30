@@ -1,0 +1,6 @@
+C:\Users\Luis\Documents\Visual Studio 2010\Projects\IdentityProvider\IdentityProvider\bin\IdentityProvider.dll
+C:\Users\Luis\Documents\Visual Studio 2010\Projects\IdentityProvider\IdentityProvider\bin\IdentityProvider.pdb
+C:\Users\Luis\Documents\Visual Studio 2010\Projects\IdentityProvider\IdentityProvider\bin\EntityFramework.dll
+C:\Users\Luis\Documents\Visual Studio 2010\Projects\IdentityProvider\IdentityProvider\bin\EntityFramework.xml
+C:\Users\Luis\Documents\Visual Studio 2010\Projects\IdentityProvider\IdentityProvider\obj\Debug\IdentityProvider.dll
+C:\Users\Luis\Documents\Visual Studio 2010\Projects\IdentityProvider\IdentityProvider\obj\Debug\IdentityProvider.pdb
